@@ -1,6 +1,6 @@
-﻿@{
+@{
     RootModule = 'Logger.psm1'
-    ModuleVersion = '1.0.0'
+    ModuleVersion = '1.0.1'
     GUID = '5a14484f-b3bb-40c6-822d-e6f783000cf2'
     Author = 'G8t Guy'
     CompanyName = 'Unknown'

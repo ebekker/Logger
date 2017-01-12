@@ -1,4 +1,4 @@
-﻿# <img src="/Docs/Logo/icon.png" alt="Logo" width="48" align="left"/> Logger
+# <img src="/Docs/Logo/icon.png" alt="Logo" width="48" align="left"/> Logger
 
 [![Powershellgallery Badge][psgallery-badge]][psgallery-status]
 
@@ -8,5 +8,5 @@
 PS> Install-Module Logger
 ```
 
-[psgallery-badge]: https://img.shields.io/badge/PowerShell_Gallery-1.0.0-green.svg
-[psgallery-status]: https://www.powershellgallery.com/packages/Logger/1.0.0
+[psgallery-badge]: https://img.shields.io/badge/PowerShell_Gallery-1.0.1-green.svg
+[psgallery-status]: https://www.powershellgallery.com/packages/Logger/1.0.1
