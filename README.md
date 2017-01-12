@@ -9,4 +9,4 @@ PS> Install-Module Logger
 ```
 
 [psgallery-badge]: https://img.shields.io/badge/PowerShell_Gallery-1.0.5-green.svg
-[psgallery-status]: https://www.powershellgallery.com/packages/ColoredText/1.0.5
+[psgallery-status]: https://www.powershellgallery.com/packages/Logger/1.0.0
