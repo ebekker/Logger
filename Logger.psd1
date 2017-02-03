@@ -1,6 +1,6 @@
 @{
     RootModule = 'Logger.psm1'
-    ModuleVersion = '1.0.1'
+    ModuleVersion = '1.0.2'
     GUID = '5a14484f-b3bb-40c6-822d-e6f783000cf2'
     Author = 'G8t Guy'
     CompanyName = 'Unknown'
@@ -9,9 +9,13 @@
     PowerShellVersion = '5.0'
     HelpInfoURI = 'https://github.com/g8tguy/Logger/blob/master/README.md'
     
-    RequiredModules = @('ColoredText')
+    FunctionsToExport = ''
+    NestedModules = @(
+        'Src\Appender\Appender.psm1'
+        'Src\Entry\Entry.psm1'
+        'Src\ILogger.psm1'
+    )
     
-    FunctionsToExport = 'Write-Log'
     
     PrivateData = @{
         PSData = @{

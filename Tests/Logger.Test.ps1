@@ -1,1 +1,0 @@
-﻿Write-Log "Log Message"
