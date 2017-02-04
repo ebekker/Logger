@@ -55,5 +55,5 @@ $logger.appenders.add([CustomAppender]@{ })
 $logger.error('Custom Appender')
 ```
 
-[psgallery-badge]: https://img.shields.io/badge/PowerShell_Gallery-1.0.2-green.svg
-[psgallery-status]: https://www.powershellgallery.com/packages/Logger/1.0.2
+[psgallery-badge]: https://img.shields.io/badge/PowerShell_Gallery-1.0.3-green.svg
+[psgallery-status]: https://www.powershellgallery.com/packages/Logger/1.0.3

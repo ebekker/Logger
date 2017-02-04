@@ -14,10 +14,13 @@
     <File Build="2">Src\ILogger.psm1</File>
     <File Build="2">Src\Entry\LoggerEntry.psm1</File>
     <File Build="2">Src\Entry\LoggerEntryTrimmed.psm1</File>
-    <File Build="2">Src\Appender\Appender.psm1</File>
     <File Build="2">Src\Appender\AppVeyorAppender.psm1</File>
     <File Build="2">Src\Appender\ColoredConsoleAppender.psm1</File>
     <File Build="2" Shared="False">Tests\Logger.Tests.ps1</File>
+    <File Build="2">.gitattributes</File>
+    <File Build="2">appveyor.yml</File>
+    <File Build="2">README.md</File>
+    <File Build="2">.gitignore</File>
   </Files>
   <DeployMode>Project</DeployMode>
   <PrimaryFile>

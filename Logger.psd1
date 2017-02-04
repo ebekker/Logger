@@ -1,6 +1,6 @@
 @{
     RootModule = 'Logger.psm1'
-    ModuleVersion = '1.0.2'
+    ModuleVersion = '1.0.3'
     GUID = '5a14484f-b3bb-40c6-822d-e6f783000cf2'
     Author = 'G8t Guy'
     CompanyName = 'Unknown'
@@ -11,8 +11,10 @@
     
     FunctionsToExport = ''
     NestedModules = @(
-        'Src\Appender\Appender.psm1'
-        'Src\Entry\Entry.psm1'
+        'Src\Entry\LoggerEntry.psm1'
+        'Src\Entry\LoggerEntryTrimmed.psm1'
+        'Src\Appender\ColoredConsoleAppender.psm1'
+        'Src\Appender\AppVeyorAppender.psm1'
         'Src\ILogger.psm1'
     )
     
